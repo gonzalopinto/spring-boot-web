@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+	<h1 th:text="${titulo}"></h1>
+	<ul>
+		<li><a th:href="@{/variables/string/} +'Hola Gon'">/variables/string/Hola Gon></a></li>
+		<li><a th:href="@{/variables/string/} +'Que tal John'">/variables/string/Que tal John></a></li>
+		<li><a th:href="@{/variables/string/} +'Como vas Pinto' + '/' + '17'">/variables/string/Como vas Pinto/17></a></li>
+
+	</ul>
+</body>
+</html>
